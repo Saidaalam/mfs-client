@@ -1,0 +1,63 @@
+ [
+      {
+        "date": "2024-08-07",
+        "amount": 100,
+        "type": "Send Money",
+        "senderReceiver": "User B"
+      },
+      {
+        "date": "2024-07-16",
+        "amount": 75,
+        "type": "Cash Out",
+        "senderReceiver": "Agent X"
+      },
+      {
+        "date": "2024-07-19",
+        "amount": 150,
+        "type": "Send Money",
+        "senderReceiver": "User C"
+      },
+      {
+        "date": "2024-07-14",
+        "amount": 50,
+        "type": "Cash In",
+        "senderReceiver": "Agent Y"
+      },
+      {
+        "date": "2024-07-13",
+        "amount": 200,
+        "type": "Send Money",
+        "senderReceiver": "User D"
+      },
+      {
+        "date": "2024-08-12",
+        "amount": 80,
+        "type": "Cash Out",
+        "senderReceiver": "Agent Z"
+      },
+      {
+        "date": "2024-07-11",
+        "amount": 120,
+        "type": "Send Money",
+        "senderReceiver": "User A"
+      },
+      {
+        "date": "2024-09-10",
+        "amount": 60,
+        "type": "Cash Out",
+        "senderReceiver": "Agent W"
+      },
+      {
+        "date": "2024-06-09",
+        "amount": 180,
+        "type": "Send Money",
+        "senderReceiver": "User B"
+      },
+      {
+        "date": "2024-09-08",
+        "amount": 70,
+        "type": "Cash In",
+        "senderReceiver": "Agent V"
+      }
+    ]
+  

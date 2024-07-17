@@ -1,0 +1,283 @@
+[
+    {
+      "_id": "1",
+      "name": "Alice Smith",
+      "phoneNumber": "1234567890",
+      "email": "alice@example.com",
+      "pin": "00000",
+      "status": "approved",
+      "balance": 400,
+      "photoURL": "https://randomuser.me/api/portraits/men/2.jpg",
+      "transactions": [
+        {
+          "type": "sendMoney",
+          "amount": 150,
+          "fee": 5,
+          "recipientId": "2",
+          "date": "2023-07-01T10:00:00Z"
+        },
+        {
+          "type": "cashIn",
+          "amount": 100,
+          "agentId": "10",
+          "date": "2023-07-02T12:00:00Z"
+        },
+        {
+          "type": "cashOut",
+          "amount": 50,
+          "fee": 0.75,
+          "agentId": "10",
+          "date": "2023-07-03T15:00:00Z"
+        }
+      ]
+    },
+    {
+      "_id": "2",
+      "name": "Baby Johnson",
+      "phoneNumber": "1234567891",
+      "email": "bob@example.com",
+      "pin": "99999",
+      "status": "approved",
+      "balance": 500,
+      "photoURL": "https://i.postimg.cc/6TJ8SCWj/women1.png",
+      "transactions": [
+        {
+          "type": "sendMoney",
+          "amount": 200,
+          "fee": 5,
+          "recipientId": "1",
+          "date": "2023-07-01T11:00:00Z"
+        },
+        {
+          "type": "cashIn",
+          "amount": 50,
+          "agentId": "10",
+          "date": "2023-07-02T13:00:00Z"
+        },
+        {
+          "type": "cashOut",
+          "amount": 100,
+          "fee": 1.5,
+          "agentId": "10",
+          "date": "2023-07-03T16:00:00Z"
+        }
+      ]
+    },
+    {
+      "_id": "3",
+      "name": "Carol Williams",
+      "phoneNumber": "1234567892",
+      "email": "carol@example.com",
+      "pin": "88888",
+      "status": "pending",
+      "balance": 0,
+      "photoURL": "https://i.postimg.cc/y8JTbg0r/author4.png",
+      "transactions": [
+        {
+            "type": "sendMoney",
+            "amount": 550,
+            "fee": 5,
+            "recipientId": "6",
+            "date": "2023-07-01T10:00:00Z"
+          },
+          {
+            "type": "cashIn",
+            "amount": 160,
+            "agentId": "10",
+            "date": "2023-07-02T12:00:00Z"
+          },
+          {
+            "type": "cashOut",
+            "amount": 500,
+            "fee": 5.75,
+            "agentId": "10",
+            "date": "2023-07-03T15:00:00Z"
+          }
+      ]
+    },
+    {
+      "_id": "4",
+      "name": "David Brown",
+      "phoneNumber": "1234567893",
+      "email": "david@example.com",
+      "pin": "77777",
+      "status": "approved",
+      "balance": 300,
+      "photoURL": "https://randomuser.me/api/portraits/men/3.jpg",
+      "transactions": [
+        {
+          "type": "sendMoney",
+          "amount": 50,
+          "fee": 0,
+          "recipientId": "1",
+          "date": "2023-07-04T17:00:00Z"
+        }
+      ]
+    },
+    {
+      "_id": "5",
+      "name": "Elma Davis",
+      "phoneNumber": "1234567894",
+      "email": "emma@example.com",
+      "pin": "66666",
+      "status": "approved",
+      "balance": 200,
+      "photoURL": "https://i.postimg.cc/XYW8BCfk/women2.jpg",
+      "transactions": [
+        {
+            "type": "sendMoney",
+            "amount": 150,
+            "fee": 5,
+            "recipientId": "2",
+            "date": "2023-07-01T10:00:00Z"
+          },
+          {
+            "type": "cashIn",
+            "amount": 100,
+            "agentId": "10",
+            "date": "2023-07-02T12:00:00Z"
+          },
+          {
+            "type": "cashOut",
+            "amount": 50,
+            "fee": 0.75,
+            "agentId": "10",
+            "date": "2023-07-03T15:00:00Z"
+          }
+      ]
+    },
+    {
+      "_id": "6",
+      "name": "Frank Miller",
+      "phoneNumber": "1234567895",
+      "email": "frank@example.com",
+      "pin": "55555",
+      "status": "pending",
+      "balance": 0,
+      "photoURL": "https://i.postimg.cc/g0HLSmtT/author2.png",
+      "transactions": [
+        {
+            "type": "sendMoney",
+            "amount": 150,
+            "fee": 5,
+            "recipientId": "2",
+            "date": "2023-07-01T10:00:00Z"
+          },
+          {
+            "type": "cashIn",
+            "amount": 700,
+            "agentId": "10",
+            "date": "2023-07-02T12:00:00Z"
+          },
+          {
+            "type": "cashOut",
+            "amount": 50,
+            "fee": 0.75,
+            "agentId": "10",
+            "date": "2023-07-03T15:00:00Z"
+          }
+      ]
+    },
+    {
+      "_id": "7",
+      "name": "Grace Wilson",
+      "phoneNumber": "1234567896",
+      "email": "grace@example.com",
+      "pin": "00009",
+      "status": "approved",
+      "balance": 150,
+      "photoURL": "https://i.postimg.cc/K8Nk8Cb4/author.png",
+      "transactions": [
+        {
+            "type": "sendMoney",
+            "amount": 650,
+            "fee": 5,
+            "recipientId": "2",
+            "date": "2023-07-01T10:00:00Z"
+          },
+          {
+            "type": "cashIn",
+            "amount": 150,
+            "agentId": "10",
+            "date": "2023-07-02T12:00:00Z"
+          },
+          {
+            "type": "cashOut",
+            "amount": 50,
+            "fee": 0.75,
+            "agentId": "10",
+            "date": "2023-07-03T15:00:00Z"
+          }
+      ]
+    },
+    {
+      "_id": "8",
+      "name": "Henry Moore",
+      "phoneNumber": "1234567897",
+      "email": "henry@example.com",
+      "pin": "00008",
+      "status": "approved",
+      "balance": 450,
+      "photoURL": "https://randomuser.me/api/portraits/men/3.jpg",
+      "transactions": [
+        {
+          "type": "sendMoney",
+          "amount": 300,
+          "fee": 5,
+          "recipientId": "1",
+          "date": "2023-07-05T18:00:00Z"
+        }
+      ]
+    },
+    {
+      "_id": "9",
+      "name": "Isra Taylor",
+      "phoneNumber": "1234567898",
+      "email": "isla@example.com",
+      "pin": "00007",
+      "status": "approved",
+      "balance": 100,
+      "photoURL": "https://i.postimg.cc/6TJ8SCWj/women1.png",
+      "transactions": [
+        {
+            "type": "sendMoney",
+            "amount": 190,
+            "fee": 5,
+            "recipientId": "2",
+            "date": "2023-07-01T10:00:00Z"
+          },
+          {
+            "type": "cashIn",
+            "amount": 180,
+            "agentId": "10",
+            "date": "2023-07-02T12:00:00Z"
+          },
+          {
+            "type": "cashOut",
+            "amount": 580,
+            "fee": 0.75,
+            "agentId": "10",
+            "date": "2023-07-03T15:00:00Z"
+          }
+      ]
+    },
+    {
+      "_id": "10",
+      "name": "Jack Anderson",
+      "phoneNumber": "1234567899",
+      "email": "jack@example.com",
+      "pin": "00006",
+      "status": "approved",
+      "balance": 1000,
+      "photoURL": "https://i.postimg.cc/ncp5gkLS/author3.png",
+      "transactions": [
+        {
+          "type": "sendMoney",
+          "amount": 500,
+          "fee": 5,
+          "recipientId": "1",
+          "date": "2023-07-06T19:00:00Z"
+        }
+      ]
+    }
+]
